@@ -1,0 +1,40 @@
+.header-container {
+    position: relative;
+    top: 10px;
+    display: grid;
+    grid-template-columns: 0.4fr 1.5fr 1fr;
+}
+
+.search-text {
+    padding: 12px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #eaeef1;
+    border: none;
+}
+
+.search-form {
+    background-color: #eaeef1;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-form svg {
+    position: relative;
+    /* top: 10px; */
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.gmail-logo-header {
+    margin-left: 15%;
+}
+
+.upload-image-btn div {
+    cursor: pointer;
+    float: right;
+    margin-top: 4px;
+    margin-right: 50px;
+    padding-left: 10px;
+}

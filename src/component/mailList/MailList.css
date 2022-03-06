@@ -1,0 +1,46 @@
+.mail-preview-container {
+    display: grid;
+    grid-template-columns: 15px 30px 200px 800px 55px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.mail-preview-container:hover {
+    background-color: #eaeef1;
+}
+
+.mail-preview-checkbox input {
+    width: 15px;
+    height: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.mail-preview-img {
+    opacity: 0.5;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.mail-preview-username {
+    padding-left: 10px;
+    width: 100px;
+}
+
+.mail-preview-text {
+    padding-left: 30px;
+}
+
+.mail-preview-time {
+    /* padding-left: 10px; */
+    width: 100px;
+}
+
+.selected-mail {
+    background-color: #C2DBFF;
+}
+
+.unread {
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.photo-select {
+    cursor: pointer;
+}
+
+.view-photo-modal {
+    background-color: black;
+}
+
+.next-photo-btn {
+    text-align: right;
+    margin: auto !important;
+    cursor: pointer;
+}
+
+.previous-photo-btn {
+    text-align: left;
+    margin: auto !important;
+    cursor: pointer;
+}
+
+.photo-frame {
+    border: none !important;
+    background-color: none !important;
+}

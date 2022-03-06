@@ -1,0 +1,63 @@
+.compose-btn {
+    color: #3c4043;
+    font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .25px;
+    background: none;
+    border: 1px solid #c2bdbd;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.compose-btn span {
+    position: relative;
+    top: 1px;
+    margin-left: 10px;
+}
+
+.sidebar-container{
+    padding: 15px;
+}
+
+.sidebar-container div {
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.side-menu-bar div img {
+    opacity: 0.54;
+}
+
+.side-menu-bar div span {
+    margin-left: 20px;
+    position: relative;
+    top: -5px;
+}
+
+.side-menu-bar {   
+    /* margin-left: 20px; */
+    padding-left: 10px;
+}
+
+.side-menu-bar:hover {
+    background-color: #eaeef1;
+    border-radius: 20px;
+}
+
+.selected-tab {
+    background-color: #eaeef1;
+}
+
+.library {
+    color: #80868b;
+    margin: 12px 0;
+    padding-bottom: 0;
+    padding-left: 24px;
+    letter-spacing: .07272727em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: .6875rem;
+    font-weight: 500;
+    line-height: 1rem;
+    text-transform: uppercase;
+}

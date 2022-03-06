@@ -1,0 +1,89 @@
+.signup-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 17%;
+    left: 25%;
+    /* background-color: red; */
+    border: 1px solid #78797c;
+    border-radius: 5px;
+}
+
+.signup-container div {
+    position: relative;
+    padding: 10px;
+    left: 10px;
+    right: 10px;
+    text-align: left;
+}
+
+.signup-text {
+    color: #202124;
+    padding-bottom: 0;
+    padding-top: 10px;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: 400;
+    margin-right: 10px;
+    line-height: 1.3333;
+}
+
+.email-input {
+    /* padding: 10px; */
+    border-radius: 4px;
+    color: #202124;
+    font-size: 16px;
+    height: 28px;
+    width: 350px;
+    margin: 1px 1px 0 1px;
+    padding: 13px 15px;
+    z-index: 1;
+}
+
+.signup-page-btn {
+    float: left;
+    color: #1a73e8;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: .25px;
+    outline: 0;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: inherit;
+    padding: 0;
+    text-align: left;
+    border: 0;
+}
+
+.next-btn {
+    position: relative;
+    top: -10px;
+    padding: 10px;
+    background-color: #1a73e8;
+    color: #ffffff;
+    width: 80px;
+    float: right;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.privacy-text {
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.show-pwd input{
+    float: left;
+    width: 18px;
+    height: 18px;
+}
+
+.show-pwd span {
+    float: left;
+}
